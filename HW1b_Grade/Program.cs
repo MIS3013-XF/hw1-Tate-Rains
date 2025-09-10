@@ -62,7 +62,7 @@ namespace HW1b_Grade
 
             sum = sum / total;
 
-            Console.WriteLine($"{name1AsString} {name2AsString} ({studentIDAsString}), your final grade is {sum}%");
+            Console.WriteLine($"{name1AsString} {name2AsString} ({studentIDAsString}), your final grade is {sum.ToString("N2")}%");
             Console.ReadKey();
         }
     }

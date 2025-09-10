@@ -39,15 +39,15 @@ namespace HW1a_Sales
 
             sum = num1 * num2;
 
-            Console.WriteLine($"Your subtotal for your bill is ${sum}");
+            Console.WriteLine($"Your subtotal for your bill is ${sum.ToString("N2")}");
 
             sum2 = sum * multiplier;
 
-            Console.WriteLine($"Your sales tax for your bill is ${sum2}");
+            Console.WriteLine($"Your sales tax for your bill is ${sum2.ToString("N2")}");
 
             sum3 = sum + sum2;
 
-            Console.WriteLine($"Your total for your bill is ${sum3}");
+            Console.WriteLine($"Your total for your bill is ${sum3.ToString("N2")}");
 
             Console.ReadKey();
         }
