@@ -29,7 +29,7 @@ namespace HW1a_Sales
 
             Console.WriteLine("What is the product name of the item you are purchasing?");
             productAsString = Console.ReadLine();
-            Console.WriteLine($"How many {productAsString} do you want to buy?");
+            Console.WriteLine($"How many {productAsString}'s do you want to buy?");
             num1AsString = Console.ReadLine();
             Console.WriteLine($"What is the price for each {productAsString}?");
             num2AsString = Console.ReadLine();
